@@ -1,3 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Mali";
+}
+
+ul {
+  margin: 0;
+  padding: 0px 15px 0px 15px;
+
+  height: 50px;
+  align-items: center;
+}
+
 /* nav */
 nav ul {
   display: flex;
@@ -6,11 +21,29 @@ nav ul {
 
 nav ul li {
   list-style: none;
-  padding: 0px 15px 0 15px;
 }
 
 nav ul li a {
+  font-weight: bolder;
+  font-size: 25px;
   text-decoration: none;
+  color: black;
+}
+
+/* paragraph and h2 */
+p {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: justify;
+  padding: 0px 500px 0px 500px;
+  line-height: 1.7;
+}
+
+h2 {
+  margin-top: 80px;
+  font-size: 27px;
+  font-weight: bold;
+  text-align: center;
 }
 
 /* slider */
@@ -29,8 +62,13 @@ nav ul li a {
   height: 100%;
   opacity: 0;
   transition: opacity 1s ease-in-out;
+
+  border: 1px solid;
+  border-radius: 30%;
 }
 
 .slideshow img.active {
   opacity: 1;
 }
+
+/* line */
