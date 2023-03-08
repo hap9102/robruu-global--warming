@@ -100,3 +100,9 @@ nav ul li a,
   color: #d0b09b;
   margin: 0px 50px 0px 50px;
 }
+
+.visitors {
+  padding: 10px;
+  font-size: 1rem;
+  padding-top: 50px;
+}
